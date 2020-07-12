@@ -23,7 +23,7 @@ class MoviesListingInteractorImpl implements MoviesListingInteractor {
     private FavoritesInteractor favoritesInteractor;
     private TmdbWebService tmdbWebService;
     private SortingOptionStore sortingOptionStore;
-    private DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+    private DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
     private static final int NEWEST_MIN_VOTE_COUNT = 50;
 
     MoviesListingInteractorImpl(FavoritesInteractor favoritesInteractor,

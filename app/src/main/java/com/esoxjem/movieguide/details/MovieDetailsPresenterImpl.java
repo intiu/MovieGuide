@@ -1,9 +1,18 @@
 package com.esoxjem.movieguide.details;
 
+import android.graphics.Color;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.esoxjem.movieguide.LoginActivity;
 import com.esoxjem.movieguide.Movie;
+import com.esoxjem.movieguide.R;
 import com.esoxjem.movieguide.Review;
 import com.esoxjem.movieguide.Video;
 import com.esoxjem.movieguide.favorites.FavoritesInteractor;
+import com.esoxjem.movieguide.favorites.FavoritesStore;
+import com.esoxjem.movieguide.favorites.MovieRealmObject;
 import com.esoxjem.movieguide.util.RxUtils;
 
 import java.util.List;
@@ -21,6 +30,7 @@ class MovieDetailsPresenterImpl implements MovieDetailsPresenter {
     private FavoritesInteractor favoritesInteractor;
     private Disposable trailersSubscription;
     private Disposable reviewSubscription;
+
 
     MovieDetailsPresenterImpl(MovieDetailsInteractor movieDetailsInteractor, FavoritesInteractor favoritesInteractor) {
         this.movieDetailsInteractor = movieDetailsInteractor;
@@ -109,4 +119,5 @@ class MovieDetailsPresenterImpl implements MovieDetailsPresenter {
             }
         }
     }
+
 }

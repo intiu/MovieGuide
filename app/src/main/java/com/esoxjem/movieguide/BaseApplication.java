@@ -61,4 +61,5 @@ public class BaseApplication extends Application {
     public ListingComponent getListingComponent() {
         return listingComponent;
     }
+
 }

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#524AB4"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/image_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nguồn Gốc"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Chúng tôi sử dụng thông tin từ The Movie Database. Một kho dữ liệu phim và truyền hình được xây dựng"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="trong cộng đồng phi lợi nhuận"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+
+
+
+</LinearLayout>

@@ -1,6 +1,13 @@
 package com.esoxjem.movieguide.favorites;
 
+import android.graphics.Color;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.esoxjem.movieguide.LoginActivity;
 import com.esoxjem.movieguide.Movie;
+import com.esoxjem.movieguide.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,6 +35,7 @@ public class FavoritesStore {
         realm.copyToRealmOrUpdate(new MovieRealmObject(movie));
         realm.commitTransaction();
     }
+
 
     public boolean isFavorite(String id) {
         MovieRealmObject res = realm.where(MovieRealmObject.class).equalTo(MovieRealmObject.ID, id).findFirst();

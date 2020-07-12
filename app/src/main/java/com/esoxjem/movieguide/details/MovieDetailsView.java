@@ -19,4 +19,5 @@ interface MovieDetailsView {
     void showFavorited();
 
     void showUnFavorited();
+
 }

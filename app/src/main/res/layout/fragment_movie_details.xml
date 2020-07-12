@@ -59,7 +59,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/holo_red_dark"
                 android:textSize="32sp"/>
 
             <TextView
@@ -70,7 +70,7 @@
                 android:layout_marginRight="16dp"
                 android:fontFamily="sans-serif-light"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/colorPrimaryDark"/>
 
             <TextView
                 android:id="@+id/movie_rating"
@@ -79,8 +79,9 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:fontFamily="sans-serif-light"
-                android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                android:textColor="@android:color/white"/>
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@color/movie_rating"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -90,7 +91,7 @@
                 android:layout_marginTop="32dp"
                 android:text="@string/summary"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                android:textColor="@android:color/white"/>
+                android:textColor="@android:color/holo_blue_dark"/>
 
             <TextView
                 android:id="@+id/movie_description"
@@ -100,7 +101,7 @@
                 android:fontFamily="sans-serif-light"
                 android:lineSpacingMultiplier="1.2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/colorPrimaryDark"/>
 
             <include
                 layout="@layout/trailers_and_reviews"

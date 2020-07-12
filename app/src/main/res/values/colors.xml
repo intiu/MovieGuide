@@ -2,9 +2,16 @@
 <resources>
     <color name="colorPrimary">#333333</color>
     <color name="colorPrimaryDark">#1e1e1e</color>
-    <color name="colorAccent">#ffc701</color>
+    <!--<color name="colorAccent">#ffc701</color>-->
+    <color name="colorAccent">#E60A0A</color>
+    <color name="colorMessage1">#292E41</color>
+    <color name="colorMessage2">#292E41</color>
+
 
     <color name="black_translucent_60">#99000000</color>
 
-    <color name="window_background">#282828</color>
+    <color name="awindow_background">#282828</color>
+    <color name="window_background">#FFFFFF</color>
+    <color name="toolbar">#FFFFFF</color>
+    <color name="movie_rating">#FFB300</color>
 </resources>

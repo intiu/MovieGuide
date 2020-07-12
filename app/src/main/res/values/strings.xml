@@ -1,17 +1,19 @@
 <resources>
-    <string name="app_name">MovieGuide</string>
-    <string name="action_filter">Filter</string>
-    <string name="loading_movies">Loading Movies</string>
-    <string name="sort_by">Sort By</string>
-    <string name="movie_guide">MovieGuide</string>
+    <string name="app_name">MOVIE APP</string>
+    <string name="action_filter">Bộ lọc</string>
+    <string name="loading_movies">Đang tải phim</string>
+    <string name="sort_by">Sắp xếp theo</string>
+    <string name="movie_guide">MOVIE APP</string>
     <string name="trailers">Trailers</string>
-    <string name="reviews">Reviews</string>
-    <string name="summary">Summary</string>
-    <string name="release_date">Release Date: %s</string>
+    <string name="reviews">Nhận xét</string>
+    <string name="summary">Tóm tắt</string>
+    <string name="release_date">Ngày phát hành: %s</string>
     <string name="rating">%s/10</string>
-    <string name="favorites">Favorites</string>
-    <string name="newest">Newest</string>
-    <string name="highest_rated">Highest Rated</string>
-    <string name="most_popular">Most Popular</string>
-    <string name="action_search">Search</string>
+    <string name="favorites">Yêu thích</string>
+    <string name="newest">Mới nhất</string>
+    <string name="highest_rated">Xếp hạng cao nhất</string>
+    <string name="most_popular">Phổ biến nhất</string>
+    <string name="action_search">Tìm kiếm</string>
+    <string name="dangtai">Đang tải</string>
+    <string name="phienban">Phiên bản</string>
 </resources>

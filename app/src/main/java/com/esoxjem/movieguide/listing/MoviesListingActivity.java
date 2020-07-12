@@ -21,6 +21,7 @@ import com.esoxjem.movieguide.util.EspressoIdlingResource;
 import com.esoxjem.movieguide.util.RxUtils;
 import com.jakewharton.rxbinding2.support.v7.widget.RxSearchView;
 
+import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 import io.reactivex.disposables.Disposable;
@@ -135,4 +136,5 @@ public class MoviesListingActivity extends AppCompatActivity implements MoviesLi
         RxUtils.unsubscribe(searchViewTextSubscription);
         super.onDestroy();
     }
+
 }

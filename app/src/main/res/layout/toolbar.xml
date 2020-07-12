@@ -9,4 +9,4 @@
     android:background="@color/colorPrimary"
     android:elevation="4dp"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-    app:theme="@style/AppTheme.Toolbar"/>
+    app:theme="@style/AppTheme.Toolbar" />
