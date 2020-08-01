@@ -5,9 +5,7 @@ import android.os.Parcelable;
 
 import com.squareup.moshi.Json;
 
-/**
- * @author arun
- */
+
 public class Video implements Parcelable {
     public static final String SITE_YOUTUBE = "YouTube";
 

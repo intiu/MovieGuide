@@ -25,9 +25,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyZeroInteractions;
 import static org.mockito.Mockito.when;
 
-/**
- * @author arunsasidharan
- */
+
 @RunWith(MockitoJUnitRunner.class)
 public class MovieDetailsPresenterImplTest {
     @Rule

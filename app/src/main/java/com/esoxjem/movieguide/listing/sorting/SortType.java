@@ -1,8 +1,6 @@
 package com.esoxjem.movieguide.listing.sorting;
 
-/**
- * @author arun
- */
+
 public enum SortType {
     MOST_POPULAR(0), HIGHEST_RATED(1), FAVORITES(2), NEWEST(3);
 

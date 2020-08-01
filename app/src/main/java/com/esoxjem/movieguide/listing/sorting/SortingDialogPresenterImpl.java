@@ -1,8 +1,6 @@
 package com.esoxjem.movieguide.listing.sorting;
 
-/**
- * @author arun
- */
+
 class SortingDialogPresenterImpl implements SortingDialogPresenter {
     private SortingDialogView view;
     private SortingDialogInteractor sortingDialogInteractor;

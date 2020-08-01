@@ -21,9 +21,7 @@ import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-/**
- * @author arunsasidharan
- */
+
 @RunWith(MockitoJUnitRunner.class)
 public class MoviesListingPresenterImplTest {
     @Rule

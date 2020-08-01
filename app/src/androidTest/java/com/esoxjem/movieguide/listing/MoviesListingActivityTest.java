@@ -22,9 +22,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
-/**
- * @author arunsasidharan
- */
+
 @RunWith(AndroidJUnit4.class)
 @LargeTest
 public class MoviesListingActivityTest

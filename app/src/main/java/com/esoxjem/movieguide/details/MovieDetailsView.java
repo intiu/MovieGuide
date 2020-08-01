@@ -6,9 +6,7 @@ import com.esoxjem.movieguide.Video;
 
 import java.util.List;
 
-/**
- * @author arun
- */
+
 interface MovieDetailsView {
     void showDetails(Movie movie);
 

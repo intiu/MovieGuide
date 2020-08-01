@@ -5,9 +5,7 @@ import com.esoxjem.movieguide.Movie;
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
-/**
- * @author NUTS-COON
- */
+
 
 public class MovieRealmObject extends RealmObject {
 

@@ -10,9 +10,7 @@ import java.util.List;
 
 import io.reactivex.Observable;
 
-/**
- * @author arun
- */
+
 class MovieDetailsInteractorImpl implements MovieDetailsInteractor {
 
     private TmdbWebService tmdbWebService;

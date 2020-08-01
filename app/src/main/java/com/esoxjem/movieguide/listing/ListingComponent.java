@@ -5,9 +5,7 @@ import com.esoxjem.movieguide.listing.sorting.SortingModule;
 
 import dagger.Subcomponent;
 
-/**
- * @author arunsasidharan
- */
+
 @ListingScope
 @Subcomponent(modules = {ListingModule.class, SortingModule.class})
 public interface ListingComponent {

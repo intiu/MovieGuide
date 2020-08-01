@@ -21,9 +21,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * @author arun
- */
+
 class MovieDetailsPresenterImpl implements MovieDetailsPresenter {
     private MovieDetailsView view;
     private MovieDetailsInteractor movieDetailsInteractor;

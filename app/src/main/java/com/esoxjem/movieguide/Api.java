@@ -1,8 +1,6 @@
 package com.esoxjem.movieguide;
 
-/**
- * @author arun
- */
+
 public class Api {
     private static final String BASE_POSTER_PATH = "https://image.tmdb.org/t/p/w342";
     private static final String BASR_BACKDROP_PATH = "https://image.tmdb.org/t/p/w780";

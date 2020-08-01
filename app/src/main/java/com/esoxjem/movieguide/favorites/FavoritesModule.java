@@ -7,9 +7,7 @@ import javax.inject.Singleton;
 import dagger.Module;
 import dagger.Provides;
 
-/**
- * @author pulkitkumar
- */
+
 @Module(includes = AppModule.class)
 public class FavoritesModule {
     @Provides

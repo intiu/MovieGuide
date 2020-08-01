@@ -6,9 +6,7 @@ import java.util.List;
 
 import io.reactivex.Observable;
 
-/**
- * @author arun
- */
+
 public interface MoviesListingInteractor {
     boolean isPaginationSupported();
 

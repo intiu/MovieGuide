@@ -18,9 +18,7 @@ package com.esoxjem.movieguide.util;
 
 import androidx.test.espresso.IdlingResource;
 
-/**
- * Contains a static reference to {@link IdlingResource}, only available in the 'mock' build type.
- */
+
 public class EspressoIdlingResource {
 
     private static final String RESOURCE = "GLOBAL";

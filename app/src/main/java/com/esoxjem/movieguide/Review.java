@@ -3,9 +3,7 @@ package com.esoxjem.movieguide;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/**
- * @author arun
- */
+
 public class Review implements Parcelable {
     private String id;
     private String author;

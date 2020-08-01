@@ -10,10 +10,7 @@ import dagger.Module;
 import dagger.Provides;
 import io.realm.Realm;
 
-/**
- * @author arunsasidharan
- * @author pulkitkumar
- */
+
 @Module
 public class AppModule {
     private Context context;

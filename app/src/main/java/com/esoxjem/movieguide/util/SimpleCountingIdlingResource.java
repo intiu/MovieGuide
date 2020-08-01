@@ -22,15 +22,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-/**
- * A simple counter implementation of {@link IdlingResource} that determines idleness by
- * maintaining an internal counter. When the counter is 0 - it is considered to be idle, when it is
- * non-zero it is not idle. This is very similar to the way a {@link java.util.concurrent.Semaphore}
- * behaves.
- * <p>
- * This class can then be used to wrap up operations that while in progress should block tests from
- * accessing the UI.
- */
+
 public final class SimpleCountingIdlingResource implements IdlingResource {
 
     private final String mResourceName;
@@ -40,11 +32,7 @@ public final class SimpleCountingIdlingResource implements IdlingResource {
     // written from main thread, read from any thread.
     private volatile ResourceCallback resourceCallback;
 
-    /**
-     * Creates a SimpleCountingIdlingResource
-     *
-     * @param resourceName the resource name this resource should report to Espresso.
-     */
+
     public SimpleCountingIdlingResource(String resourceName) {
         mResourceName = checkNotNull(resourceName);
     }

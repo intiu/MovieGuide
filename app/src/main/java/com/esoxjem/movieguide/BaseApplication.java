@@ -12,9 +12,7 @@ import com.esoxjem.movieguide.network.NetworkModule;
 
 import io.realm.Realm;
 
-/**
- * @author arun
- */
+
 public class BaseApplication extends Application {
     private AppComponent appComponent;
     private DetailsComponent detailsComponent;

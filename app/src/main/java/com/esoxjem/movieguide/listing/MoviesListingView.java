@@ -4,9 +4,7 @@ import com.esoxjem.movieguide.Movie;
 
 import java.util.List;
 
-/**
- * @author arun
- */
+
 interface MoviesListingView {
     void showMovies(List<Movie> movies);
 

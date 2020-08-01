@@ -12,11 +12,7 @@ import io.reactivex.functions.Function;
 import io.reactivex.plugins.RxJavaPlugins;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * JUnit Test Rule which overrides RxJava and Android schedulers for use in unit tests.
- * <p>
- * All schedulers are replaced with Schedulers.trampoline().
- */
+
 public class RxSchedulerRule implements TestRule {
 
     private Scheduler trampoline = Schedulers.trampoline();
